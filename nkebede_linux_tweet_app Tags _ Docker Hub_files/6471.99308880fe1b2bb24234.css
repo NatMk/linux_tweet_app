@@ -1,0 +1,3242 @@
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___Eq98R {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___GQjOK {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___yaBwh {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__code___kEaal {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e1e2e6;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c4c8d1;
+  padding: 8px;
+}
+
+.styles-module__copyable___hmul7 {
+  cursor: pointer;
+  align-self: center;
+  white-space: nowrap;
+  width: 0; /* needed to accept shrinking */
+  text-overflow: ellipsis;
+}
+
+.styles-module__copyable___hmul7:hover + .styles-module__button___f2nVx, .styles-module__copyable___hmul7:focus + .styles-module__button___f2nVx {
+      color: #086dd7;
+    }
+
+.styles-module__multiline___pIMQ2 {
+  white-space: pre-line !important;
+}
+
+.styles-module__darkInput___qf1zK {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 600;
+
+  unicode-bidi: embed;
+  border: none;
+  border-radius: 2px;
+
+  padding: 4px 0 4px 12px;
+  background-color: #e1e2e6;
+
+  width: 100%;
+  overflow-x: hidden;
+  color: #393f49;
+}
+
+.styles-module__lightInput___i1FfU {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+
+  unicode-bidi: embed;
+  white-space: nowrap;
+  overflow-x: hidden;
+  flex: auto 1 1;
+}
+
+.styles-module__button___f2nVx {
+  border-radius: 0;
+  padding: 0;
+}
+
+.styles-module__button___f2nVx:hover,
+  .styles-module__button___f2nVx:focus {
+    color: #086dd7;
+  }
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___vNOgo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___p5CO4 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___Qfasg {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__pullCommand___XiS7G {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8993a5;
+  margin-bottom: 12px;
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___jotHy {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___ASaWl {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___Zj2Jd {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__page___vtAXz {
+    width: 24px;
+    height: 24px;
+  }
+
+.styles-module__page___vtAXz {
+  text-decoration: none;
+  color: inherit;
+}
+
+.styles-module__page___vtAXz:visited {
+    color: inherit;
+  }
+
+.styles-module__page___vtAXz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  color: #8993a5;
+  background-color: #e1e2e6;
+  font-size: 12px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.styles-module__page___vtAXz:last-child {
+    margin-right: 0;
+  }
+
+.styles-module__page___vtAXz:first-child:not(.styles-module__chevron___vNUj8) {
+    margin-left: 56px;
+  }
+
+.styles-module__page___vtAXz:last-child:not(.styles-module__chevron___vNUj8) {
+    margin-right: 56px;
+  }
+
+.styles-module__chevron___vNUj8 {
+  fill: #8993a5;
+}
+
+.styles-module__firstPage___O_GJP > svg {
+  transform: rotate(-180deg);
+}
+
+.styles-module__nextPage___gV_4H > svg {
+  transform: rotate(-90deg);
+}
+
+.styles-module__previousPage___s16BE > svg {
+  transform: rotate(90deg);
+}
+
+.styles-module__currentPage___iWcuo {
+  background-color: #086dd7;
+  color: #ffffff;
+}
+
+.styles-module__paginationCentered___j7x1i {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.styles-module__limitedText___bu0lG {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-left: 32px;
+  margin-right: 32px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+/* ActionBar styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___xgihZ {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___qzN34 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___hwiRg {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__bar___oFa8q {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  min-width: 491px;
+  display: flex;
+  justify-items: stretch;
+  height: 40px;
+  margin-right: 6px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.styles-module__actionButton___BQvx5 {
+  margin: 0;
+}
+
+.styles-module__selectAction___eVYhA {
+  font-size: 12px !important;
+}
+
+.styles-module__selectAction___eVYhA {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  width: 40px;
+}
+
+.styles-module__selectAction___eVYhA .styles-module__checkboxMask___mqzP1 {
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+.styles-module__selectAction___eVYhA .styles-module__checkbox____31Sf {
+    opacity: 0.4;
+  }
+
+.styles-module__selectAction___eVYhA .styles-module__checkbox____31Sf.styles-module__checked___t_hdX {
+    opacity: 1;
+  }
+
+.styles-module__selectAction___eVYhA .styles-module__checkboxIcon___RXnpm {
+    width: 15px;
+    height: 15px;
+  }
+
+.styles-module__actionMenu___DOPT3 {
+  flex: 0 1 auto;
+  width: 150px;
+}
+
+.styles-module__filter___EP783 {
+  flex: 0 1 auto;
+  width: 200px;
+  height: 100%;
+  margin-right: auto;
+}
+
+.styles-module__filter___EP783 .styles-module__filterWrapper___i0Bup {
+    height: 100%;
+    background-color: #f9f9fa;
+  }
+
+.styles-module__sort___tkzT5 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.styles-module__sort___tkzT5 .styles-module__sortLabel___KovYw {
+    margin-right: 6px;
+  }
+
+.styles-module__sort___tkzT5 .styles-module__sortWrapper___AH7HI {
+    flex: 0 1 auto;
+    width: 165px;
+  }
+
+.styles-module__bar___oFa8q:hover .styles-module__checkbox____31Sf {
+    opacity: 1;
+  }
+
+/* ImageList styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___P9tFT {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___H7nYm {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___PW_GB {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__list___Xg4SK {
+  margin-left: 0;
+}
+
+.styles-module__noScanning___KRwLx .styles-module__vulnsColumn___jgoBg,
+  .styles-module__noScanResults____CH49 .styles-module__vulnsColumn___jgoBg {
+    display: none;
+  }
+
+.styles-module__noScanning___KRwLx .styles-module__lastScannedColumn___UaJRf {
+    display: none;
+  }
+
+/* ImageHeader styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped____qd4N {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___MXBjf {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___qiy7Z {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__row___c5NhC {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 1px 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8993a5;
+  padding-top: 13px;
+}
+
+.styles-module__row___c5NhC > div {
+    text-transform: uppercase;
+  }
+
+.styles-module__digestItem___uIlti {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  padding-left: 0;
+  /* for left alignment with 'info' block in tag item */
+  width: 100px;
+  flex-grow: 1.25;
+}
+
+.styles-module__osArchItem___IsURN {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  width: 80px;
+  flex-grow: 1.25;
+  margin-left: 38px;
+}
+
+.styles-module__lastPulledItem___P3lI9 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  width: 80px;
+  flex-grow: 1.25;
+}
+
+.styles-module__osItem___TKlN4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  width: 80px;
+  flex-grow: 1.25;
+  margin-left: 38px;
+}
+
+.styles-module__sizeItem___lMy_U {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  width: 80px;
+  flex-grow: 1.25;
+  text-align: right;
+}
+
+.styles-module__vulns___dmfsp {
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  flex: 0 0 auto;
+
+  padding: 2px;
+
+  margin: 0;
+
+  width: 80px;
+
+  flex-grow: 1.25;
+
+  text-align: right;
+
+  padding-right: 20px;
+}
+
+.styles-module__lastScanned___T6K0y {
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  flex: 0 0 auto;
+
+  padding: 2px;
+
+  margin: 0;
+
+  width: 80px;
+
+  flex-grow: 1.25;
+}
+
+/* ImageListItem styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___i9Pbl {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___Gmwar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___xp22o {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__row___DOXeG {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 1px 0;
+  padding: 0;
+}
+
+/*
+WARNING: Whatever style gets defined here (i.e. as the second style in this
+ file) gets completely ignored by PostCSS for some unknown reason!? So this
+ unused style must be here, otherwise the next thing gets ignored... Maybe it's
+ something with the 'repotags-imagelist-row' mixin? But then there would be
+ a similar issue in ../ImageHeader/styles.module.css, but there isn't...
+*/
+
+.styles-module__foo___ju5rm {
+  width: 0;
+}
+
+.styles-module__row___DOXeG:last-child {
+  margin-bottom: 0;
+}
+
+.styles-module__clickable___WLR2Y:hover {
+  background-color: #f2f8ff;
+  cursor: pointer;
+}
+
+.styles-module__digestItem___aLAyR {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  padding-left: 0;
+  /* for left alignment with 'info' block in tag item */
+  width: 100px;
+  flex-grow: 1.25;
+}
+
+.styles-module__osArchItem___ZyQDZ {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  width: 80px;
+  flex-grow: 1.25;
+  margin-left: 38px;
+}
+
+.styles-module__lastPulledItem___v2q1n {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  width: 80px;
+  flex-grow: 1.25;
+}
+
+.styles-module__sizeItem___pdlhO {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  padding: 2px;
+  margin: 0;
+  width: 80px;
+  flex-grow: 1.25;
+  text-align: right;
+}
+
+.styles-module__vulns___Dk4c5 {
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  flex: 0 0 auto;
+
+  padding: 2px;
+
+  margin: 0;
+
+  width: 80px;
+
+  flex-grow: 1.25;
+
+  text-align: right;
+
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.styles-module__lastScanned___u1BY7 {
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  flex: 0 0 auto;
+
+  padding: 2px;
+
+  margin: 0;
+
+  width: 80px;
+
+  flex-grow: 1.25;
+}
+
+.styles-module__scanLoadingSpinner___DNvde {
+  margin-left: 16px;
+}
+
+/* ImageListToggle styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___RyphY {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___Tgz9g {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___rNVri {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__container___IpMC1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 4px;
+}
+
+.styles-module__label___a16SW {
+  color: #1c90ed;
+  cursor: pointer;
+}
+
+/* TagListItem styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped____Nk0a {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___VgzFz {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___PHTOc {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__item___sFhku {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 17px 0;
+}
+
+.styles-module__action___lwRiv {
+  flex: 0 0 auto;
+  width: 40px;
+}
+
+.styles-module__action___lwRiv .styles-module__checkboxMask___lBaru {
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+.styles-module__action___lwRiv .styles-module__checkbox___ysCC4 {
+    opacity: 0.4;
+  }
+
+.styles-module__action___lwRiv .styles-module__checkbox___ysCC4.styles-module__checked___mUCVN {
+    opacity: 1;
+  }
+
+.styles-module__action___lwRiv .styles-module__checkboxIcon___YGZq7 {
+    width: 15px;
+    height: 15px;
+  }
+
+.styles-module__content___XCKDV.styles-module__withActions___aos4o {
+  /* Prettier disagrees with stylelint */
+
+  /* prettier-ignore */
+  width: calc(100% - 46px);
+}
+
+.styles-module__content___XCKDV {
+  position: relative;
+  width: 100%;
+}
+
+.styles-module__content___XCKDV .styles-module__tagStatus___LZKwO {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+.styles-module__content___XCKDV .styles-module__statusLabel___lhJc2 {
+    min-width: 110px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: #677285;
+    background: #c4c8d1;
+  }
+
+.styles-module__content___XCKDV .styles-module__header___orFbe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+.styles-module__content___XCKDV .styles-module__header___orFbe .styles-module__info___ln55f {
+      width: 100%;
+      margin-left: 0;
+    }
+
+.styles-module__content___XCKDV .styles-module__header___orFbe .styles-module__info___ln55f .styles-module__imageType___rlDsY {
+        color: #94a1aa;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+.styles-module__content___XCKDV .styles-module__header___orFbe .styles-module__info___ln55f .styles-module__tagUpdated___n3bir {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+      }
+
+.styles-module__content___XCKDV .styles-module__header___orFbe .styles-module__info___ln55f .styles-module__tagUpdated___n3bir .styles-module__tagWhen___kzWHf {
+          font-weight: 500;
+        }
+
+/* tag header row */
+
+.styles-module__title___emfjy {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.styles-module__title_name___dNJgN {
+  flex: auto 0 1;
+
+  white-space: 'nowrap';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+.styles-module__title_criticalVulnerabilityFound___la4uU {
+  display: flex;
+  align-items: center;
+
+  flex: auto 0 0;
+
+  margin-left: 8px;
+}
+
+.styles-module__title_copyPullCommandWrapper___D1MXR {
+  margin-left: auto;
+  flex: 285px 0 0;
+  height: 28px;
+  position: relative;
+}
+
+@media (width <=600px) {
+
+  @media only screen and (max-color:2147477350) {
+
+.styles-module__title_copyPullCommandWrapper___D1MXR {
+    display: none
+}
+  }
+  }
+
+@media not all and (width <=600px) {
+
+  @media only screen and (color:2147477350) {
+
+.styles-module__title_copyPullCommandWrapper___D1MXR {
+    display: none
+}
+  }
+  }
+
+.styles-module__copyPullCommand___wsEL8 {
+  /*
+    Hack: Pull this out of the document flow to fix bad Chrome's bad
+    text selection logic: https://docker.atlassian.net/browse/HUB-5591
+  */
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 0;
+}
+
+/* Selection checkboxes */
+
+.styles-module__item___sFhku.styles-module__checked___mUCVN .styles-module__checkbox___ysCC4, .styles-module__item___sFhku:hover .styles-module__checkbox___ysCC4 {
+    opacity: 1;
+  }
+
+/* TagList styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___okgLt {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___XFuRQ {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___XQx8u {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__list___Pgwbr {
+  min-width: 497px;
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___Aem2o {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___QlpZz {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___ecW2B {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__modal___nTmI9 {
+  background: #ffffff;
+  position: relative;
+  height: 100%; /* essential in pinning header and footer, scrolling children */
+  max-height: 80%;
+  padding: 0;
+}
+
+.styles-module__closeModal___YPSYh {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.styles-module__closeIcon___RUrvy {
+    width: 12px;
+    height: 12px;
+  }
+
+.styles-module__closeIcon___RUrvy {
+  fill: #8993a5;
+}
+
+.styles-module__title___lWqXK {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.styles-module__header___DMS6n {
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e1e2e6;
+}
+
+.styles-module__children___CK5Kt {
+  height: calc(100% - 139px);
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.styles-module__footer___RWZ4s {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  height: 75px;
+  border-top: 1px solid #e1e2e6;
+  padding: 12px 20px;
+}
+
+/* DeleteTagsModal styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___i57yR {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___SzWzA {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___kewmN {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__children___DgF0i p:first-child {
+    margin-top: 0;
+  }
+
+.styles-module__children___DgF0i p:last-child {
+    margin-bottom: 0;
+  }
+
+.styles-module__ctas___dkKgf {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.styles-module__center___yN79b {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styles-module__warning___WSqV9 {
+  color: #d52536;
+}
+
+.styles-module__message___JOo9W {
+  margin: 24px 0;
+}
+
+.styles-module__table___YvtfS {
+  margin: 0;
+  padding: 0 10px 15px 10px;
+  background-color: #f9f9fa;
+}
+
+.styles-module__table___YvtfS .styles-module__tableHeader___dZEU0 {
+    list-style: none;
+    line-height: 20px;
+    padding: 10px 14px;
+    border-bottom: 1px solid #e1e2e6;
+    margin: 0 0 15px;
+  }
+
+.styles-module__table___YvtfS .styles-module__tableCell___deWoe {
+    line-height: 19px;
+    padding: 5px 0;
+    margin: 0 0 0 34px;
+  }
+
+.styles-module__modalTitle____779A {
+  display: flex;
+}
+
+.styles-module__iconWrapper___p6osM {
+  display: flex;
+  margin: 0 8px 0 0;
+}
+
+/* RepoTagsView styles */
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___AzDdV {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___T5dXz {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___XTQUf {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shared repotags component variables/mixins */
+
+/**
+ * NOTE: The 'components/common/Checkbox' component comes from MaterialUI. At some
+ *  deeply-nested layer, Mui adds a right margin of 24px. The only way I've found
+ *  to cut this out, so that the hit area for the checkbox actually maps to the
+ *  visible area of the checkbox is by wrapping the checkbox in a div and setting
+ *  its overflow to be hidden, and its size to be the visible size of the checkbox.
+ */
+
+/* space between ActionBar and TagList */
+
+/**
+ * TAG LIST
+ */
+
+/* horizontal (left/right) padding on content part of TagListItem */
+
+/* vertical space between each TagListItem */
+
+/* x-offset, y-offset, and blur radius for shadow on TagListItem hover */
+
+/**
+ * NOTE: These variables establish a flexbox-based grid system used through the
+ *  tag list and into the image list within it. Seemed easier than also using
+ *  CSS grid (i.e. grid to layout the TagItem, and flexbox to layout the ImageHeader
+ *  and ImageListItem).
+ */
+
+/* checkbox */
+
+/* image digest */
+
+/* image architecture */
+
+/* image OS */
+
+/* size */
+
+/* critical count */
+
+/* major count */
+
+/* minor count */
+
+/**
+ * IMAGE LIST
+ */
+
+/*
+gutter between two columns where first column is right-aligned and second
+ column is left-aligned
+*/
+
+/* vertical, between items */
+
+/* min width for official images */
+
+/* stylelint-disable function-calc-no-unspaced-operator, indentation */
+
+/* stylelint-enable function-calc-no-unspaced-operator, indentation */
+
+/* min width when vulnerabilities not shown (i.e. community images) */
+
+.styles-module__container___Aft3y {
+  width: 100%;
+  overflow-x: auto;
+  padding-top: 2px; /* so the action bar doesn't get cut off due to overflow-x */
+}
+
+.styles-module__loader___rtDVl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.styles-module__emptyCard___HmYnU {
+  min-width: 491px;
+  background: #ffffff;
+  border: solid 1px #e1e2e6;
+  padding: 32px;
+  margin-right: 6px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+}
+

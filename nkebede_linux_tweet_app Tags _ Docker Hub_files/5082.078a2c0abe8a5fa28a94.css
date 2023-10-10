@@ -1,0 +1,1852 @@
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___IjI1W {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___KxEIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___wJY_s {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__breadcrumbs___uwXLc {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.styles-module__breadcrumb___d8HAd {
+  position: relative;
+  color: #393f49;
+  padding: 11px 11px 11px
+    22px;
+}
+
+.styles-module__breadcrumbLink___UM7bn {
+  text-decoration: none;
+}
+
+.styles-module__breadcrumbLink___UM7bn:hover {
+    color: #086dd7;
+  }
+
+/* First breadcrumb does not need as much left padding */
+
+.styles-module__breadcrumb___d8HAd:first-child {
+  padding: 11px 5.5px 11px
+    11px;
+}
+
+.styles-module__breadcrumb___d8HAd:last-child {
+  color: #086dd7;
+}
+
+/* Arrow background */
+
+.styles-module__breadcrumb___d8HAd::after {
+  content: ' ';
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 21px solid transparent;
+  border-bottom: 21px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -21px;
+  left: 100%;
+  z-index: 3;
+}
+
+/* Arrow border */
+
+.styles-module__breadcrumb___d8HAd::before {
+  content: ' ';
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 21px solid transparent;
+  border-bottom: 21px solid transparent;
+  border-left: 10px solid rgba(187, 187, 187, 0.3);
+  position: absolute;
+  top: 50%;
+  margin-top: -21px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.utilities-module__wrapped___OIXfE {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes utilities-module__fadein___N5jWR {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes utilities-module__load8___lnYAM {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___iyCS3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___DgYZ1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___S3vSY {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__container___alw_a {
+}
+
+.styles-module__contextNav___Birov {
+  height: 42px;
+  background: white;
+  border-bottom: 1px solid #e0e4e7;
+}
+
+.styles-module__breadcrumbs___HqAg9 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___Qj_WN {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___wsHAr {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___zXWuM {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__chip___qiszN {
+  align-items: center;
+  background-color: #efeff2;
+  border-radius: 2px;
+  color: #8993a5;
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px 10px;
+}
+
+.styles-module__clickable___baXT2 {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.styles-module__clickable___baXT2:hover {
+    opacity: 0.7;
+  }
+
+.styles-module__withIcon___RAUFg {
+  background-color: #e1e2e6;
+  color: #505968;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 12px;
+}
+
+.styles-module__icon___BT53G {
+    width: 13px;
+    height: 13px;
+  }
+
+.styles-module__icon___BT53G {
+  margin-right: 10px;
+  fill: #505968;
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___kOCKk {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___Dfmaq {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+.dicon {
+    width: 24px;
+    height: 24px;
+  }
+
+/*
+lib/constants/sizes
+**************/
+
+.styles-module__supertiny___thUDp {
+    width: 8px;
+    height: 8px;
+  }
+
+.styles-module__tiny____5Mr_ {
+    width: 12px;
+    height: 12px;
+  }
+
+.styles-module__small___gtEfJ {
+    width: 18px;
+    height: 18px;
+  }
+
+.styles-module__regular___z_uEW {
+    width: 24px;
+    height: 24px;
+  }
+
+.styles-module__large___YTAE6 {
+    width: 40px;
+    height: 40px;
+  }
+
+.styles-module__xlarge___Kf12h {
+    width: 60px;
+    height: 60px;
+  }
+
+/*
+lib/constants/variants
+**************/
+
+.styles-module__primary___bx21j {
+  fill: #086dd7;
+}
+
+.styles-module__secondary___E4WxE {
+  fill: #88d5c0;
+}
+
+.styles-module__warn___JrKDl {
+  fill: #fbb552;
+}
+
+.styles-module__panic___cm5RF {
+  fill: #d52536;
+}
+
+.styles-module__dull___UyQih {
+  fill: #8993a5;
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___Zac9C {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___uNxGC {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___LkWR6 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__supertiny___qiQMN {
+  width: 18px;
+  height: 18px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.styles-module__supertiny___qiQMN::after {
+    content: '';
+    position: absolute;
+
+    left: calc(50% - 9px);
+    top: calc(50% - 9px);
+    width: 16px;
+    height: 16px;
+
+    border-radius: 50%;
+    border-top: 1px solid transparent;
+    border-right: 1px solid #086dd7;
+    border-bottom: 1px solid #086dd7;
+    border-left: 1px solid #086dd7;
+
+    font-size: 10px;
+    text-indent: -9999em;
+    transform: translateZ(0);
+
+    animation: styles-module__load8___LkWR6 1.1s infinite linear;
+  }
+
+.styles-module__tiny___MdJbr {
+  width: 27px;
+  height: 27px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.styles-module__tiny___MdJbr::after {
+    content: '';
+    position: absolute;
+
+    left: calc(50% - 13.5px);
+    top: calc(50% - 13.5px);
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+    border-top: 1.5px solid transparent;
+    border-right: 1.5px solid #086dd7;
+    border-bottom: 1.5px solid #086dd7;
+    border-left: 1.5px solid #086dd7;
+
+    font-size: 10px;
+    text-indent: -9999em;
+    transform: translateZ(0);
+
+    animation: styles-module__load8___LkWR6 1.1s infinite linear;
+  }
+
+.styles-module__small___WN5sv {
+  width: 40.5px;
+  height: 40.5px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.styles-module__small___WN5sv::after {
+    content: '';
+    position: absolute;
+
+    left: calc(50% - 20.25px);
+    top: calc(50% - 20.25px);
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+    border-top: 2.25px solid transparent;
+    border-right: 2.25px solid #086dd7;
+    border-bottom: 2.25px solid #086dd7;
+    border-left: 2.25px solid #086dd7;
+
+    font-size: 10px;
+    text-indent: -9999em;
+    transform: translateZ(0);
+
+    animation: styles-module__load8___LkWR6 1.1s infinite linear;
+  }
+
+.styles-module__regular___k4dDY {
+  width: 54px;
+  height: 54px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.styles-module__regular___k4dDY::after {
+    content: '';
+    position: absolute;
+
+    left: calc(50% - 27px);
+    top: calc(50% - 27px);
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+    border-top: 3px solid transparent;
+    border-right: 3px solid #086dd7;
+    border-bottom: 3px solid #086dd7;
+    border-left: 3px solid #086dd7;
+
+    font-size: 10px;
+    text-indent: -9999em;
+    transform: translateZ(0);
+
+    animation: styles-module__load8___LkWR6 1.1s infinite linear;
+  }
+
+.styles-module__large___Qcahn {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.styles-module__large___Qcahn::after {
+    content: '';
+    position: absolute;
+
+    left: calc(50% - 45px);
+    top: calc(50% - 45px);
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    border-top: 5px solid transparent;
+    border-right: 5px solid #086dd7;
+    border-bottom: 5px solid #086dd7;
+    border-left: 5px solid #086dd7;
+
+    font-size: 10px;
+    text-indent: -9999em;
+    transform: translateZ(0);
+
+    animation: styles-module__load8___LkWR6 1.1s infinite linear;
+  }
+
+.styles-module__xlarge___m4_Cm {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.styles-module__xlarge___m4_Cm::after {
+    content: '';
+    position: absolute;
+
+    left: calc(50% - 67.5px);
+    top: calc(50% - 67.5px);
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    border-top: 7.5px solid transparent;
+    border-right: 7.5px solid #086dd7;
+    border-bottom: 7.5px solid #086dd7;
+    border-left: 7.5px solid #086dd7;
+
+    font-size: 10px;
+    text-indent: -9999em;
+    transform: translateZ(0);
+
+    animation: styles-module__load8___LkWR6 1.1s infinite linear;
+  }
+
+.styles-module__overlay-primary___lsTQc::after {
+    border-right-color: #086dd7;
+    border-bottom-color: #086dd7;
+    border-left-color: #086dd7;
+  }
+
+.styles-module__overlay-white___CItHo::after {
+    border-right-color: #f9f9fa;
+    border-bottom-color: #f9f9fa;
+    border-left-color: #f9f9fa;
+  }
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___GsvRq {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___dT0Hn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___T3wX5 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__starCount___x3o5R {
+  display: flex;
+  color: #505968;
+  fill: #505968;
+  align-items: center;
+}
+
+.styles-module__clickable___mSmrm {
+  cursor: pointer;
+}
+
+.styles-module__spinner___AF__E {
+  background-color: #ffffff;
+}
+
+.styles-module__starNum___A2OwK {
+  background: #ffffff;
+  margin-left: 4px;
+}
+
+.styles-module__icon___ckXQP {
+  font-size: 22px;
+}
+
+.styles-module__tiny___eicvy {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+
+.styles-module__tiny___eicvy .styles-module__icon___ckXQP {
+    font-size: 22px;
+  }
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.hasLoadingStencil-module__wrapped___TJA2q {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes hasLoadingStencil-module__fadein___kxPe6 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes hasLoadingStencil-module__load8___Me0H4 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+  items with this class will be rendered with a grey animated overlay, indicating
+  loading in progress
+*/
+
+.hasLoadingStencil-module__hasLoadingStencil___xMAhi {
+  position: relative;
+}
+
+.hasLoadingStencil-module__hasLoadingStencil___xMAhi::after {
+    content: '';
+
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: 100%;
+
+    /* Prettier disagrees with stylelint, disable the latter here */
+
+    /* stylelint-disable declaration-colon-newline-after */
+    background-image: linear-gradient(
+      to right,
+      #e1e2e6 0%,
+      #e1e2e6 1250px,
+      #f9f9fa 1400px,
+      #e1e2e6 1550px,
+      #e1e2e6 100%
+    );
+    /* stylelint-enable declaration-colon-newline-after */
+    background-size: 2500px;
+
+    border-radius: 2px;
+
+    animation-name: hasLoadingStencil-module__animateStencil___oGWdn;
+    animation-duration: 2.08333s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  }
+
+@keyframes hasLoadingStencil-module__animateStencil___oGWdn {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 2500px;
+  }
+}
+
+/* DESIGN SYSTEM COLOUR PALETTE */
+
+/* Defined here https://www.figma.com/file/YrCXp3zztpwtcSD9XVge7Z/%E2%9C%A8Foundations?node-id=0%3A1 */
+
+/* Storybook: https://storybook.internal.dckr.io/?path=/story/foundations-palettes--palettes */
+
+/* All legacy should be transitioned to these */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* primary */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* possibly used in mixins */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* are these being used in mixins? */
+
+/* this variable is being overwritten in cloud/Core/object/components/State/styles.module.css */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles-module__wrapped___iyhW_ {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@keyframes styles-module__fadein___CfwQ7 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@keyframes styles-module__load8___UP9P7 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.styles-module__headerContainer___GWt0V {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.styles-module__avatarImageWrapper___l_bpP {
+  width: 120px;
+  height: 120px;
+  flex: 0 0 auto;
+}
+
+.styles-module__avatarImage___trz1g {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.styles-module__headerText___pUDdR {
+  flex: 1 1 auto;
+  overflow: hidden;
+  padding-left: 24px;
+}
+
+.styles-module__repoAndStar___Nsi36 {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+/*
+    To align the top of the text with the top of the publisher image, *without*
+    causing their bounding boxes to be misaligned (otherwise their loading stencils
+    look wrong)
+  */
+
+.styles-module__repoAndStar___Nsi36 > * {
+    transform: translate(0, -8px);
+  }
+
+.styles-module__repoAndStar___Nsi36 > *:not(:first-child) {
+      margin-left: 8px;
+    }
+
+.styles-module__repoName___nAcAz {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.styles-module__repoDetails___faIRp {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 8px;
+}
+
+.styles-module__chips___qvYzU {
+  display: flex;
+}
+
+.styles-module__chips___qvYzU > :not(:last-child) {
+    margin-right: 8px;
+  }
+
+.styles-module__cta___YqYtA {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.styles-module__cta___YqYtA .styles-module__manageRepositoryButton___rFo4j {
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+.styles-module__cta___YqYtA .styles-module__stats___zreoL {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.styles-module__notLoadedYet___Bt7Ht {
+}
+
